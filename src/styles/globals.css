@@ -22,3 +22,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+
+  .btn {
+    @apply bg-zinc-500 px-4 py-2 rounded-md;
+    @apply hover:bg-zinc-700 hover:cursor-pointer;
+  }
+
+  .input {
+    @apply bg-black/20 px-4 py-2 rounded-md;
+    @apply focus:outline-none;
+    @apply focus:ring-2 focus:ring-white/30;
+  }
+}
