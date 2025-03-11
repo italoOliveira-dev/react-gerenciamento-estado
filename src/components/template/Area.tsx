@@ -10,7 +10,8 @@ const cores: Cores = {
     blue: 'bg-blue-500',
     green: 'bg-green-500',
     red: 'bg-red-500',
-    sky: 'bg-sky-500'
+    sky: 'bg-sky-500',
+    purple: 'bg-purple-500'
 }
 
 export default function Area(props: AreaProps) {

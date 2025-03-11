@@ -30,6 +30,16 @@ body {
     @apply hover:bg-zinc-700 hover:cursor-pointer;
   }
 
+  .btn-info {
+    @apply bg-blue-500 px-4 py-2 rounded-md;
+    @apply hover:bg-blue-700 hover:cursor-pointer;
+  }
+
+  .btn-remove {
+    @apply bg-red-500 px-4 py-2 rounded-md;
+    @apply hover:bg-red-500-700 hover:cursor-pointer;
+  }
+
   .input {
     @apply bg-black/20 px-4 py-2 rounded-md;
     @apply focus:outline-none;
